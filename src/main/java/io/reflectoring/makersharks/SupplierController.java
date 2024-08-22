@@ -18,8 +18,8 @@ public class SupplierController {
                 searchRequest.getLocation(),
                 searchRequest.getNatureOfBusiness(),
                 searchRequest.getManufacturingProcesses(),
-                searchRequest.getLimit()
-        );
+                searchRequest.getPage(),
+                searchRequest.getSize());
     }
 }
 
